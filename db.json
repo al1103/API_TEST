@@ -1,0 +1,39 @@
+{
+  "admin": [
+    {
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "user": [
+    {
+      "username": "user",
+      "password": "user"
+    }
+  ],
+  "signin": [
+    {
+      "username": "signin",
+      "password": "signin"
+    }
+  ],
+  "mod": [
+    {
+      "username": "mod",
+      "password": "mod"
+    }
+  ],
+  "all": [
+    {
+      "username": "all",
+      "password": "all"
+    }
+  ],
+  "signup": [
+    {
+      "username": "signup",
+      "password": "signup",
+      "email": ""
+    }
+  ]
+}
