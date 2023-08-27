@@ -1,39 +1,20 @@
 {
   "admin": [
-    {
-      "username": "admin",
-      "password": "admin"
-    }
+    { "id": 1, "username": "admin", "password": "admin" }
   ],
   "user": [
-    {
-      "username": "user",
-      "password": "user"
-    }
+    { "id": 1, "username": "user", "password": "user" }
   ],
   "signin": [
-    {
-      "username": "signin",
-      "password": "signin"
-    }
+    { "id": 1, "username": "signin", "password": "signin" }
   ],
   "mod": [
-    {
-      "username": "mod",
-      "password": "mod"
-    }
+    { "id": 1, "username": "mod", "password": "mod" }
   ],
   "all": [
-    {
-      "username": "all",
-      "password": "all"
-    }
+    { "id": 1, "username": "all", "password": "all" }
   ],
   "signup": [
-    {
-      "username": "signup",
-      "password": "signup",
-      "email": ""
-    }
+    { "id": 1, "username": "signup", "password": "signup", "email": "xsxs" }
   ]
 }
