@@ -16,5 +16,52 @@
   ],
   "signup": [
     { "id": 1, "username": "signup", "password": "signup", "email": "xsxs" }
+  ],
+  "posts":[
+  {
+  "id": 1,
+  "title": "Bài viết về HTML",
+  "content": "<h1>Tổng quan về HTML</h1><p>HTML (HyperText Markup Language) là một ngôn ngữ đánh dấu được sử dụng để tạo nội dung web.</p><p>HTML sử dụng các thẻ để đánh dấu phần tử trên trang web:</p><ul><li><a href='#'>Thẻ &lt;p&gt;</a>: Được sử dụng để định dạng đoạn văn bản.</li><li><a href='#'>Thẻ &lt;h1&gt;</a>: Được sử dụng để tạo tiêu đề lớn nhất.</li></ul>",
+  "author": "Tác giả 1",
+  "date": "2023-09-25",
+  "category": "Khoa học",
+  "tags": ["HTML", "Web Development"],
+  "image": "url_hinh_anh_html.jpg",
+  "comments": []
+}
+,{
+  "id": 2,
+  "title": "Cuộc Cách Mạng Công Nghiệp",
+  "content": "<h1>Cuộc Cách Mạng Công Nghiệp</h1><p>Cuộc Cách Mạng Công Nghiệp là một sự thay đổi lớn trong cách sản xuất và công nghiệp hóa xã hội.</p><p>Nó bắt đầu vào cuối thế kỷ 18 tại Anh Quốc và lan rộng trên toàn cầu. Cuộc cách mạng này đã thúc đẩy sự phát triển của máy móc, công nghệ, và đổi đời của con người.</p>",
+  "author": "Tác giả 2",
+  "date": "2023-09-26",
+  "category": "Khoa học",
+  "tags": ["Cách Mạng Công Nghiệp", "Lịch Sử", "Công Nghệ"],
+  "image": "url_hinh_anh_cach_mang_cong_nghiep.jpg",
+  "comments": []
+}
+,{
+  "id": 3,
+  "title": "Các Công Nghệ Mới Xuất Hiện",
+  "content": "<h1>Các Công Nghệ Mới Xuất Hiện</h1><p>Thế giới công nghệ luôn thay đổi và phát triển nhanh chóng. Dưới đây là một số công nghệ mới xuất hiện trong thời gian gần đây:</p><ul><li><a href='#'>Internet of Things (IoT)</a>: Kết nối đối tượng vật lý vào internet.</li><li><a href='#'>Trí tuệ nhân tạo (AI)</a>: Máy tính có khả năng học và ra quyết định.</li><li><a href='#'>Thực tế ảo (VR) và Thực tế tăng cường (AR)</a>: Tạo ra trải nghiệm thực tế ảo và tăng cường thực tế cho người dùng.</li></ul>",
+  "author": "Tác giả 3",
+  "date": "2023-09-27",
+  "category": "Công Nghệ",
+  "tags": ["Công Nghệ Mới", "IoT", "AI", "VR", "AR"],
+  "image": "url_hinh_anh_cong_nghe_moi.jpg",
+  "comments": []
+}
+,{
+  "id": 4,
+  "title": "Cẩm Nang Du Lịch Phượt",
+  "content": "<h1>Cẩm Nang Du Lịch Phượt</h1><p>Du lịch phượt là một trải nghiệm tuyệt vời để khám phá thế giới. Dưới đây là một số địa điểm du lịch phượt phổ biến:</p><ul><li><a href='#'>Sapa, Việt Nam</a>: Vùng núi tại Việt Nam với cảnh quan thiên nhiên tuyệt đẹp.</li><li><a href='#'>Patagonia, Chile và Argentina</a>: Vùng đất hoang sơ ở Nam Mỹ với cảnh quan hùng vĩ.</li><li><a href='#'>Thung lũng Yosemite, Hoa Kỳ</a>: Khu vực thiên nhiên tại California với các thác nước và rừng thông.</li></ul>",
+  "author": "Tác giả 4",
+  "date": "2023-09-28",
+  "category": "Du Lịch",
+  "tags": ["Du Lịch Phượt", "Sapa", "Patagonia", "Yosemite"],
+  "image": "url_hinh_anh_du_lich_pho.jpg",
+  "comments": []
+}
+
   ]
 }
