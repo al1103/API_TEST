@@ -61,7 +61,119 @@
   "tags": ["Du Lịch Phượt", "Sapa", "Patagonia", "Yosemite"],
   "image": "url_hinh_anh_du_lich_pho.jpg",
   "comments": []
+},
+    {
+  "id": 5,
+  "title": "CSS và Phong cách Trang Web",
+  "content": "<h1>Giới thiệu về CSS</h1><p>CSS (Cascading Style Sheets) là ngôn ngữ được sử dụng để định dạng và trang trí trang web.</p><p>Điều này bao gồm việc áp dụng màu sắc, font chữ, và bố cục cho các phần tử trên trang.</p>",
+  "author": "Tác giả 2",
+  "date": "2023-09-26",
+  "category": "Công nghệ",
+  "tags": ["CSS", "Web Design"],
+  "image": "url_hinh_anh_css.jpg",
+  "comments": []
+},
+    {
+  "id": 6,
+  "title": "Lập trình JavaScript Cơ bản",
+  "content": "<h1>Nhập môn JavaScript</h1><p>JavaScript là ngôn ngữ lập trình được sử dụng để thêm tính năng tương tác vào trang web.</p><p>Bài viết này cung cấp cái nhìn tổng quan về cú pháp cơ bản và cách sử dụng JavaScript trong phát triển web.</p>",
+  "author": "Tác giả 3",
+  "date": "2023-09-27",
+  "category": "Lập trình",
+  "tags": ["JavaScript", "Web Development"],
+  "image": "url_hinh_anh_javascript.jpg",
+  "comments": []
 }
+,{
+  "id": 7,
+  "title": "Python: Ngôn ngữ Lập trình Đa mục đích",
+  "content": "<h1>Khám phá Python</h1><p>Python là ngôn ngữ lập trình dễ đọc, linh hoạt và mạnh mẽ, thích hợp cho nhiều mục đích khác nhau như phát triển web, trí tuệ nhân tạo, và phân tích dữ liệu.</p>",
+  "author": "Tác giả 4",
+  "date": "2023-09-28",
+  "category": "Lập trình",
+  "tags": ["Python", "Programming"],
+  "image": "url_hinh_anh_python.jpg",
+  "comments": []
+}
+,{
+  "id": 8,
+  "title": "Thực Hành SEO Hiệu quả",
+  "content": "<h1>Hướng dẫn SEO cơ bản</h1><p>SEO (Search Engine Optimization) là quá trình tối ưu hóa trang web để nó có thứ hạng cao trên các trang kết quả của công cụ tìm kiếm.</p><p>Đọc bài viết này để biết cách thực hành SEO hiệu quả.</p>",
+  "author": "Tác giả 5",
+  "date": "2023-09-29",
+  "category": "Marketing",
+  "tags": ["SEO", "Digital Marketing"],
+  "image": "url_hinh_anh_seo.jpg",
+  "comments": []
+}
+,{
+  "id": 9,
+  "title": "ReactJS: Thư viện JavaScript Phổ biến",
+  "content": "<h1>Khám phá ReactJS</h1><p>ReactJS là một thư viện JavaScript phổ biến được sử dụng để xây dựng giao diện người dùng linh hoạt và hiệu quả.</p><p>Bài viết này giới thiệu về cách sử dụng ReactJS trong phát triển ứng dụng web.</p>",
+  "author": "Tác giả 6",
+  "date": "2023-09-30",
+  "category": "Lập trình",
+  "tags": ["ReactJS", "Web Development"],
+  "image": "url_hinh_anh_reactjs.jpg",
+  "comments": []
+}
+,{
+  "id": 10,
+  "title": "Machine Learning: Cơ bản và Ứng dụng",
+  "content": "<h1>Nhập môn Machine Learning</h1><p>Machine Learning là lĩnh vực của trí tuệ nhân tạo mà máy tính học từ dữ liệu để thực hiện các nhiệm vụ mà không cần phải được lập trình cụ thể.</p><p>Đọc bài viết này để hiểu rõ về cơ bản và ứng dụng của Machine Learning.</p>",
+  "author": "Tác giả 7",
+  "date": "2023-10-01",
+  "category": "Trí tuệ nhân tạo",
+  "tags": ["Machine Learning", "AI"],
+  "image": "url_hinh_anh_ml.jpg",
+  "comments": []
+}
+,{
+  "id": 11,
+  "title": "Angular: Framework JavaScript Đa Nền Tảng",
+  "content": "<h1>Giới thiệu về Angular</h1><p>Angular là một framework JavaScript đa nền tảng được sử dụng để xây dựng ứng dụng web động và hiệu quả.</p><p>Bài viết này hướng dẫn về cách bắt đầu và sử dụng Angular trong phát triển ứng dụng web.</p>",
+  "author": "Tác giả 8",
+  "date": "2023-10-02",
+  "category": "Lập trình",
+  "tags": ["Angular", "Web Development"],
+  "image": "url_hinh_anh_angular.jpg",
+  "comments": []
+}
+,{
+  "id": 12,
+  "title": "Cybersecurity: Bảo mật Thông tin Trong Thế Giới Kỹ thuật Số",
+  "content": "<h1>Khám phá về Cybersecurity</h1><p>Cybersecurity là lĩnh vực chuyên sâu đảm bảo an toàn và bảo mật cho dữ liệu và thông tin trong thế giới kỹ thuật số ngày nay.</p><p>Bài viết này đưa ra cái nhìn tổng quan về các vấn đề và biện pháp bảo mật cơ bản.</p>",
+  "author": "Tác giả 9",
+  "date": "2023-10-03",
+  "category": "An ninh mạng",
+  "tags": ["Cybersecurity", "Information Security"],
+  "image": "url_hinh_anh_cybersecurity.jpg",
+  "comments": []
+}
+,{
+  "id": 13,
+  "title": "Sự Kết hợp của UX và UI trong Thiết kế Trải nghiệm Người dùng",
+  "content": "<h1>UX và UI: Sự Kết hợp Quan trọng</h1><p>Trải nghiệm người dùng (UX) và Giao diện người dùng (UI) đóng vai trò quan trọng trong việc thiết kế sản phẩm hiệu quả và thú vị cho người dùng.</p><p>Đọc bài viết này để hiểu rõ hơn về sự kết hợp của UX và UI trong thiết kế.</p>",
+  "author": "Tác giả 10",
+  "date": "2023-10-04",
+  "category": "Thiết kế",
+  "tags": ["UX", "UI", "Design"],
+  "image": "url_hinh_anh_ux_ui.jpg",
+  "comments": []
+}
+,{
+  "id": 14,
+  "title": "Đào tạo Phát triển Phần mềm: Hướng Dẫn Bắt Đầu",
+  "content": "<h1>Bước Đầu trong Đào tạo Phát triển Phần mềm</h1><p>Đào tạo phát triển phần mềm là quá trình học các kỹ năng và công nghệ cần thiết để trở thành một nhà phát triển phần mềm chuyên nghiệp.</p><p>Bài viết này cung cấp hướng dẫn chi tiết về bắt đầu trong lĩnh vực này.</p>",
+  "author": "Tác giả 11",
+  "date": "2023-10-05",
+  "category": "Lập trình",
+  "tags": ["Software Development", "Training"],
+  "image": "url_hinh_anh_software_training.jpg",
+  "comments": []
+}
+
+
 
   ]
 }
