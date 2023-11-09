@@ -1,9 +1,11 @@
 {
+  "account":[],
   "admin": [
     { "id": 1, "username": "admin", "password": "admin" }
   ],
   "user": [
-    { "id": 1, "username": "user", "password": "user" }
+    { "id":
+      1, "username": "user", "password": "user" }
   ],
   "signin": [
     { "id": 1, "username": "signin", "password": "signin" }
