@@ -1,17 +1,38 @@
 {
-  "account":[],
+
   "admin": [
     { "id": 1, "username": "admin", "password": "admin" }
   ],
-  "user": [
-    { "id":
-      1, "username": "user", "password": "user" }
-  ],
+  "users": [
+    {
+      "user_id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "john.doe@example.com",
+      "password": "hashed_password_123",
+      "date_registered": "2023-11-14T12:30:00.000Z"
+    },
+    {
+      "user_id": 2,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "email": "jane.smith@example.com",
+      "password": "hashed_password_456",
+      "date_registered": "2023-11-14T14:45:00.000Z"
+    },
+    {
+      "user_id": 3,
+      "firstname": "Alice",
+      "lastname": "Wonder",
+      "email": "alice.wonder@example.com",
+      "password": "hashed_password_789",
+      "date_registered": "2023-11-14T16:00:00.000Z"
+    }
+  ]
+
+,
   "signin": [
     { "id": 1, "username": "signin", "password": "signin" }
-  ],
-  "mod": [
-    { "id": 1, "username": "mod", "password": "mod" }
   ],
   "all": [
     { "id": 1, "username": "all", "password": "all" }
@@ -51,7 +72,7 @@
   "category": "Công Nghệ",
   "tags": ["Công Nghệ Mới", "IoT", "AI", "VR", "AR"],
   "image": "url_hinh_anh_cong_nghe_moi.jpg",
-  "comments": []
+  
 }
 ,{
   "id": 4,
@@ -62,7 +83,7 @@
   "category": "Du Lịch",
   "tags": ["Du Lịch Phượt", "Sapa", "Patagonia", "Yosemite"],
   "image": "url_hinh_anh_du_lich_pho.jpg",
-  "comments": []
+  
 },
     {
   "id": 5,
@@ -73,7 +94,7 @@
   "category": "Công nghệ",
   "tags": ["CSS", "Web Design"],
   "image": "url_hinh_anh_css.jpg",
-  "comments": []
+  
 },
     {
   "id": 6,
@@ -84,7 +105,7 @@
   "category": "Lập trình",
   "tags": ["JavaScript", "Web Development"],
   "image": "url_hinh_anh_javascript.jpg",
-  "comments": []
+ 
 }
 ,{
   "id": 7,
@@ -95,7 +116,7 @@
   "category": "Lập trình",
   "tags": ["Python", "Programming"],
   "image": "url_hinh_anh_python.jpg",
-  "comments": []
+  
 }
 ,{
   "id": 8,
@@ -106,7 +127,7 @@
   "category": "Marketing",
   "tags": ["SEO", "Digital Marketing"],
   "image": "url_hinh_anh_seo.jpg",
-  "comments": []
+  
 }
 ,{
   "id": 9,
@@ -117,7 +138,7 @@
   "category": "Lập trình",
   "tags": ["ReactJS", "Web Development"],
   "image": "url_hinh_anh_reactjs.jpg",
-  "comments": []
+  
 }
 ,{
   "id": 10,
@@ -128,7 +149,7 @@
   "category": "Trí tuệ nhân tạo",
   "tags": ["Machine Learning", "AI"],
   "image": "url_hinh_anh_ml.jpg",
-  "comments": []
+  
 }
 ,{
   "id": 11,
@@ -139,7 +160,7 @@
   "category": "Lập trình",
   "tags": ["Angular", "Web Development"],
   "image": "url_hinh_anh_angular.jpg",
-  "comments": []
+  
 }
 ,{
   "id": 12,
@@ -150,69 +171,50 @@
   "category": "An ninh mạng",
   "tags": ["Cybersecurity", "Information Security"],
   "image": "url_hinh_anh_cybersecurity.jpg",
-  "comments": []
+  
 }
-,{
-  "id": 13,
-  "title": "Sự Kết hợp của UX và UI trong Thiết kế Trải nghiệm Người dùng",
-  "content": "<h1>UX và UI: Sự Kết hợp Quan trọng</h1><p>Trải nghiệm người dùng (UX) và Giao diện người dùng (UI) đóng vai trò quan trọng trong việc thiết kế sản phẩm hiệu quả và thú vị cho người dùng.</p><p>Đọc bài viết này để hiểu rõ hơn về sự kết hợp của UX và UI trong thiết kế.</p>",
-  "author": "Tác giả 10",
-  "date": "2023-10-04",
-  "category": "Thiết kế",
-  "tags": ["UX", "UI", "Design"],
-  "image": "url_hinh_anh_ux_ui.jpg",
-  "comments": []
-}
-,{
-  "id": 14,
-  "title": "Đào tạo Phát triển Phần mềm: Hướng Dẫn Bắt Đầu",
-  "content": "<h1>Bước Đầu trong Đào tạo Phát triển Phần mềm</h1><p>Đào tạo phát triển phần mềm là quá trình học các kỹ năng và công nghệ cần thiết để trở thành một nhà phát triển phần mềm chuyên nghiệp.</p><p>Bài viết này cung cấp hướng dẫn chi tiết về bắt đầu trong lĩnh vực này.</p>",
-  "author": "Tác giả 11",
-  "date": "2023-10-05",
-  "category": "Lập trình",
-  "tags": ["Software Development", "Training"],
-  "image": "url_hinh_anh_software_training.jpg",
-  "comments": []
-}
+
   ]
   ,
-  "comments": [ {
-    "comment_id": 1,
-    "user_id": 101,
-    "post_id": 1,
-    "parent_comment_id": null,
-    "content": "Great post! Very informative.",
-    "date_created": "2023-01-01T12:30:00.000Z",
-    "username": "john_doe",
-    "replies": [
-      {
-        "comment_id": 2,
-        "user_id": 102,
-        "post_id": 1,
-        "parent_comment_id": 1,
-        "content": "Thanks, John! I had a question...",
-        "date_created": "2023-01-02T08:45:00.000Z",
-        "username": "jane_smith"
-      },
-      {
-        "comment_id": 3,
-        "user_id": 101,
-        "post_id": 1,
-        "parent_comment_id": 1,
-        "content": "You're welcome, Jane! Feel free to ask anything.",
-        "date_created": "2023-01-02T09:00:00.000Z",
-        "username": "john_doe"
-      }
-    ]
-  },
-  {
-    "comment_id": 4,
-    "user_id": 103,
-    "post_id": 1,
-    "parent_comment_id": null,
-    "content": "Nice post!",
-    "date_created": "2023-01-03T14:00:00.000Z",
-    "username": "alice_wonder",
-    "replies": []
-  }]
+  "comments": [
+    {
+      "comment_id": 1,
+      "user_id": 1,
+      "post_id": 1,
+      "parent_comment_id": null,
+      "content": "Great post! Very informative.",
+      "date_created": "2023-01-01T12:30:00.000Z",
+      "username": "john_doe",
+      "replies": [
+        {
+          "comment_id": 2,
+          "user_id": 2,
+          "post_id": 1,
+          "parent_comment_id": 1,
+          "content": "Thanks, John! I had a question...",
+          "date_created": "2023-01-02T08:45:00.000Z",
+          "username": "jane_smith"
+        },
+        {
+          "comment_id": 3,
+          "user_id": 1,
+          "post_id": 1,
+          "parent_comment_id": 1,
+          "content": "You're welcome, Jane! Feel free to ask anything.",
+          "date_created": "2023-01-02T09:00:00.000Z",
+          "username": "john_doe"
+        }
+      ]
+    },
+    {
+      "comment_id": 4,
+      "user_id": 3,
+      "post_id": 1,
+      "parent_comment_id": null,
+      "content": "Nice post!",
+      "date_created": "2023-01-03T14:00:00.000Z",
+      "username": "alice_wonder",
+      "replies": []
+    }
+  ]
 }
