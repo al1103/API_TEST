@@ -40,142 +40,138 @@
   "signup": [
     { "id": 1, "username": "signup", "password": "signup", "email": "xsxs" }
   ],
-  "posts":[
-  {
-  "id": 1,
-  "title": "Bài viết về HTML",
-  "content": "<h1>Tổng quan về HTML</h1><p>HTML (HyperText Markup Language) là một ngôn ngữ đánh dấu được sử dụng để tạo nội dung web.</p><p>HTML sử dụng các thẻ để đánh dấu phần tử trên trang web:</p><ul><li><a href='#'>Thẻ &lt;p&gt;</a>: Được sử dụng để định dạng đoạn văn bản.</li><li><a href='#'>Thẻ &lt;h1&gt;</a>: Được sử dụng để tạo tiêu đề lớn nhất.</li></ul>",
-  "author": "Tác giả 1",
-  "date": "2023-09-25",
-  "category": "Khoa học",
-  "tags": ["HTML", "Web Development"],
-  "image": "url_hinh_anh_html.jpg",
-  
-}
-,{
-  "id": 2,
-  "title": "Cuộc Cách Mạng Công Nghiệp",
-  "content": "<h1>Cuộc Cách Mạng Công Nghiệp</h1><p>Cuộc Cách Mạng Công Nghiệp là một sự thay đổi lớn trong cách sản xuất và công nghiệp hóa xã hội.</p><p>Nó bắt đầu vào cuối thế kỷ 18 tại Anh Quốc và lan rộng trên toàn cầu. Cuộc cách mạng này đã thúc đẩy sự phát triển của máy móc, công nghệ, và đổi đời của con người.</p>",
-  "author": "Tác giả 2",
-  "date": "2023-09-26",
-  "category": "Khoa học",
-  "tags": ["Cách Mạng Công Nghiệp", "Lịch Sử", "Công Nghệ"],
-  "image": "url_hinh_anh_cach_mang_cong_nghiep.jpg",
-  
-}
-,{
-  "id": 3,
-  "title": "Các Công Nghệ Mới Xuất Hiện",
-  "content": "<h1>Các Công Nghệ Mới Xuất Hiện</h1><p>Thế giới công nghệ luôn thay đổi và phát triển nhanh chóng. Dưới đây là một số công nghệ mới xuất hiện trong thời gian gần đây:</p><ul><li><a href='#'>Internet of Things (IoT)</a>: Kết nối đối tượng vật lý vào internet.</li><li><a href='#'>Trí tuệ nhân tạo (AI)</a>: Máy tính có khả năng học và ra quyết định.</li><li><a href='#'>Thực tế ảo (VR) và Thực tế tăng cường (AR)</a>: Tạo ra trải nghiệm thực tế ảo và tăng cường thực tế cho người dùng.</li></ul>",
-  "author": "Tác giả 3",
-  "date": "2023-09-27",
-  "category": "Công Nghệ",
-  "tags": ["Công Nghệ Mới", "IoT", "AI", "VR", "AR"],
-  "image": "url_hinh_anh_cong_nghe_moi.jpg",
-  
-}
-,{
-  "id": 4,
-  "title": "Cẩm Nang Du Lịch Phượt",
-  "content": "<h1>Cẩm Nang Du Lịch Phượt</h1><p>Du lịch phượt là một trải nghiệm tuyệt vời để khám phá thế giới. Dưới đây là một số địa điểm du lịch phượt phổ biến:</p><ul><li><a href='#'>Sapa, Việt Nam</a>: Vùng núi tại Việt Nam với cảnh quan thiên nhiên tuyệt đẹp.</li><li><a href='#'>Patagonia, Chile và Argentina</a>: Vùng đất hoang sơ ở Nam Mỹ với cảnh quan hùng vĩ.</li><li><a href='#'>Thung lũng Yosemite, Hoa Kỳ</a>: Khu vực thiên nhiên tại California với các thác nước và rừng thông.</li></ul>",
-  "author": "Tác giả 4",
-  "date": "2023-09-28",
-  "category": "Du Lịch",
-  "tags": ["Du Lịch Phượt", "Sapa", "Patagonia", "Yosemite"],
-  "image": "url_hinh_anh_du_lich_pho.jpg",
-  
-},
+   "posts": [
     {
-  "id": 5,
-  "title": "CSS và Phong cách Trang Web",
-  "content": "<h1>Giới thiệu về CSS</h1><p>CSS (Cascading Style Sheets) là ngôn ngữ được sử dụng để định dạng và trang trí trang web.</p><p>Điều này bao gồm việc áp dụng màu sắc, font chữ, và bố cục cho các phần tử trên trang.</p>",
-  "author": "Tác giả 2",
-  "date": "2023-09-26",
-  "category": "Công nghệ",
-  "tags": ["CSS", "Web Design"],
-  "image": "url_hinh_anh_css.jpg",
-  
-},
+      "id": 1,
+      "user_id": 1,
+      "title": "Bài viết về HTML",
+      "content": "<h1>Tổng quan về HTML</h1><p>HTML (HyperText Markup Language) là một ngôn ngữ đánh dấu được sử dụng để tạo nội dung web.</p><p>HTML sử dụng các thẻ để đánh dấu phần tử trên trang web:</p><ul><li><a href='#'>Thẻ &lt;p&gt;</a>: Được sử dụng để định dạng đoạn văn bản.</li><li><a href='#'>Thẻ &lt;h1&gt;</a>: Được sử dụng để tạo tiêu đề lớn nhất.</li></ul>",
+      "author": "Tác giả 1",
+      "date": "2023-09-25",
+      "category": "Khoa học",
+      "tags": ["HTML", "Web Development"],
+      "image": "url_hinh_anh_html.jpg"
+    },
     {
-  "id": 6,
-  "title": "Lập trình JavaScript Cơ bản",
-  "content": "<h1>Nhập môn JavaScript</h1><p>JavaScript là ngôn ngữ lập trình được sử dụng để thêm tính năng tương tác vào trang web.</p><p>Bài viết này cung cấp cái nhìn tổng quan về cú pháp cơ bản và cách sử dụng JavaScript trong phát triển web.</p>",
-  "author": "Tác giả 3",
-  "date": "2023-09-27",
-  "category": "Lập trình",
-  "tags": ["JavaScript", "Web Development"],
-  "image": "url_hinh_anh_javascript.jpg",
- 
-}
-,{
-  "id": 7,
-  "title": "Python: Ngôn ngữ Lập trình Đa mục đích",
-  "content": "<h1>Khám phá Python</h1><p>Python là ngôn ngữ lập trình dễ đọc, linh hoạt và mạnh mẽ, thích hợp cho nhiều mục đích khác nhau như phát triển web, trí tuệ nhân tạo, và phân tích dữ liệu.</p>",
-  "author": "Tác giả 4",
-  "date": "2023-09-28",
-  "category": "Lập trình",
-  "tags": ["Python", "Programming"],
-  "image": "url_hinh_anh_python.jpg",
-  
-}
-,{
-  "id": 8,
-  "title": "Thực Hành SEO Hiệu quả",
-  "content": "<h1>Hướng dẫn SEO cơ bản</h1><p>SEO (Search Engine Optimization) là quá trình tối ưu hóa trang web để nó có thứ hạng cao trên các trang kết quả của công cụ tìm kiếm.</p><p>Đọc bài viết này để biết cách thực hành SEO hiệu quả.</p>",
-  "author": "Tác giả 5",
-  "date": "2023-09-29",
-  "category": "Marketing",
-  "tags": ["SEO", "Digital Marketing"],
-  "image": "url_hinh_anh_seo.jpg",
-  
-}
-,{
-  "id": 9,
-  "title": "ReactJS: Thư viện JavaScript Phổ biến",
-  "content": "<h1>Khám phá ReactJS</h1><p>ReactJS là một thư viện JavaScript phổ biến được sử dụng để xây dựng giao diện người dùng linh hoạt và hiệu quả.</p><p>Bài viết này giới thiệu về cách sử dụng ReactJS trong phát triển ứng dụng web.</p>",
-  "author": "Tác giả 6",
-  "date": "2023-09-30",
-  "category": "Lập trình",
-  "tags": ["ReactJS", "Web Development"],
-  "image": "url_hinh_anh_reactjs.jpg",
-  
-}
-,{
-  "id": 10,
-  "title": "Machine Learning: Cơ bản và Ứng dụng",
-  "content": "<h1>Nhập môn Machine Learning</h1><p>Machine Learning là lĩnh vực của trí tuệ nhân tạo mà máy tính học từ dữ liệu để thực hiện các nhiệm vụ mà không cần phải được lập trình cụ thể.</p><p>Đọc bài viết này để hiểu rõ về cơ bản và ứng dụng của Machine Learning.</p>",
-  "author": "Tác giả 7",
-  "date": "2023-10-01",
-  "category": "Trí tuệ nhân tạo",
-  "tags": ["Machine Learning", "AI"],
-  "image": "url_hinh_anh_ml.jpg",
-  
-}
-,{
-  "id": 11,
-  "title": "Angular: Framework JavaScript Đa Nền Tảng",
-  "content": "<h1>Giới thiệu về Angular</h1><p>Angular là một framework JavaScript đa nền tảng được sử dụng để xây dựng ứng dụng web động và hiệu quả.</p><p>Bài viết này hướng dẫn về cách bắt đầu và sử dụng Angular trong phát triển ứng dụng web.</p>",
-  "author": "Tác giả 8",
-  "date": "2023-10-02",
-  "category": "Lập trình",
-  "tags": ["Angular", "Web Development"],
-  "image": "url_hinh_anh_angular.jpg",
-  
-}
-,{
-  "id": 12,
-  "title": "Cybersecurity: Bảo mật Thông tin Trong Thế Giới Kỹ thuật Số",
-  "content": "<h1>Khám phá về Cybersecurity</h1><p>Cybersecurity là lĩnh vực chuyên sâu đảm bảo an toàn và bảo mật cho dữ liệu và thông tin trong thế giới kỹ thuật số ngày nay.</p><p>Bài viết này đưa ra cái nhìn tổng quan về các vấn đề và biện pháp bảo mật cơ bản.</p>",
-  "author": "Tác giả 9",
-  "date": "2023-10-03",
-  "category": "An ninh mạng",
-  "tags": ["Cybersecurity", "Information Security"],
-  "image": "url_hinh_anh_cybersecurity.jpg",
-  
-}
-
-  ]
-  ,
+      "id": 2,
+      "user_id": 2,
+      "title": "Cuộc Cách Mạng Công Nghiệp",
+      "content": "<h1>Cuộc Cách Mạng Công Nghiệp</h1><p>Cuộc Cách Mạng Công Nghiệp là một sự thay đổi lớn trong cách sản xuất và công nghiệp hóa xã hội.</p><p>Nó bắt đầu vào cuối thế kỷ 18 tại Anh Quốc và lan rộng trên toàn cầu. Cuộc cách mạng này đã thúc đẩy sự phát triển của máy móc, công nghệ, và đổi đời của con người.</p>",
+      "author": "Tác giả 2",
+      "date": "2023-09-26",
+      "category": "Khoa học",
+      "tags": ["Cách Mạng Công Nghiệp", "Lịch Sử", "Công Nghệ"],
+      "image": "url_hinh_anh_cach_mang_cong_nghiep.jpg"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "title": "Các Công Nghệ Mới Xuất Hiện",
+      "content": "<h1>Các Công Nghệ Mới Xuất Hiện</h1><p>Thế giới công nghệ luôn thay đổi và phát triển nhanh chóng. Dưới đây là một số công nghệ mới xuất hiện trong thời gian gần đây:</p><ul><li><a href='#'>Internet of Things (IoT)</a>: Kết nối đối tượng vật lý vào internet.</li><li><a href='#'>Trí tuệ nhân tạo (AI)</a>: Máy tính có khả năng học và ra quyết định.</li><li><a href='#'>Thực tế ảo (VR) và Thực tế tăng cường (AR)</a>: Tạo ra trải nghiệm thực tế ảo và tăng cường thực tế cho người dùng.</li></ul>",
+      "author": "Tác giả 3",
+      "date": "2023-09-27",
+      "category": "Công Nghệ",
+      "tags": ["Công Nghệ Mới", "IoT", "AI", "VR", "AR"],
+      "image": "url_hinh_anh_cong_nghe_moi.jpg"
+    },{
+      "id": 4,
+      "user_id": 4,
+      "title": "Cẩm Nang Du Lịch Phượt",
+      "content": "<h1>Cẩm Nang Du Lịch Phượt</h1><p>Du lịch phượt là một trải nghiệm tuyệt vời để khám phá thế giới. Dưới đây là một số địa điểm du lịch phượt phổ biến:</p><ul><li><a href='#'>Sapa, Việt Nam</a>: Vùng núi tại Việt Nam với cảnh quan thiên nhiên tuyệt đẹp.</li><li><a href='#'>Patagonia, Chile và Argentina</a>: Vùng đất hoang sơ ở Nam Mỹ với cảnh quan hùng vĩ.</li><li><a href='#'>Thung lũng Yosemite, Hoa Kỳ</a>: Khu vực thiên nhiên tại California với các thác nước và rừng thông.</li></ul>",
+      "author": "Tác giả 4",
+      "date": "2023-09-28",
+      "category": "Du Lịch",
+      "tags": ["Du Lịch Phượt", "Sapa", "Patagonia", "Yosemite"],
+      "image": "url_hinh_anh_du_lich_pho.jpg"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "title": "CSS và Phong cách Trang Web",
+      "content": "<h1>Giới thiệu về CSS</h1><p>CSS (Cascading Style Sheets) là ngôn ngữ được sử dụng để định dạng và trang trí trang web.</p><p>Điều này bao gồm việc áp dụng màu sắc, font chữ, và bố cục cho các phần tử trên trang.</p>",
+      "author": "Tác giả 2",
+      "date": "2023-09-26",
+      "category": "Công nghệ",
+      "tags": ["CSS", "Web Design"],
+      "image": "url_hinh_anh_css.jpg"
+    },
+    {
+      "id": 6,
+      "user_id": 3,
+      "title": "Lập trình JavaScript Cơ bản",
+      "content": "<h1>Nhập môn JavaScript</h1><p>JavaScript là ngôn ngữ lập trình được sử dụng để thêm tính năng tương tác vào trang web.</p><p>Bài viết này cung cấp cái nhìn tổng quan về cú pháp cơ bản và cách sử dụng JavaScript trong phát triển web.</p>",
+      "author": "Tác giả 3",
+      "date": "2023-09-27",
+      "category": "Lập trình",
+      "tags": ["JavaScript", "Web Development"],
+      "image": "url_hinh_anh_javascript.jpg"
+    }, {
+      "id": 7,
+      "user_id": 4,
+      "title": "Python: Ngôn ngữ Lập trình Đa mục đích",
+      "content": "<h1>Khám phá Python</h1><p>Python là ngôn ngữ lập trình dễ đọc, linh hoạt và mạnh mẽ, thích hợp cho nhiều mục đích khác nhau như phát triển web, trí tuệ nhân tạo, và phân tích dữ liệu.</p>",
+      "author": "Tác giả 4",
+      "date": "2023-09-28",
+      "category": "Lập trình",
+      "tags": ["Python", "Programming"],
+      "image": "url_hinh_anh_python.jpg"
+    },
+    {
+      "id": 8,
+      "user_id": 5,
+      "title": "Thực Hành SEO Hiệu quả",
+      "content": "<h1>Hướng dẫn SEO cơ bản</h1><p>SEO (Search Engine Optimization) là quá trình tối ưu hóa trang web để nó có thứ hạng cao trên các trang kết quả của công cụ tìm kiếm.</p><p>Đọc bài viết này để biết cách thực hành SEO hiệu quả.</p>",
+      "author": "Tác giả 5",
+      "date": "2023-09-29",
+      "category": "Marketing",
+      "tags": ["SEO", "Digital Marketing"],
+      "image": "url_hinh_anh_seo.jpg"
+    },
+    {
+      "id": 9,
+      "user_id": 6,
+      "title": "ReactJS: Thư viện JavaScript Phổ biến",
+      "content": "<h1>Khám phá ReactJS</h1><p>ReactJS là một thư viện JavaScript phổ biến được sử dụng để xây dựng giao diện người dùng linh hoạt và hiệu quả.</p><p>Bài viết này giới thiệu về cách sử dụng ReactJS trong phát triển ứng dụng web.</p>",
+      "author": "Tác giả 6",
+      "date": "2023-09-30",
+      "category": "Lập trình",
+      "tags": ["ReactJS", "Web Development"],
+      "image": "url_hinh_anh_reactjs.jpg"
+    },
+    {
+      "id": 10,
+      "user_id": 7,
+      "title": "Machine Learning: Cơ bản và Ứng dụng",
+      "content": "<h1>Nhập môn Machine Learning</h1><p>Machine Learning là lĩnh vực của trí tuệ nhân tạo mà máy tính học từ dữ liệu để thực hiện các nhiệm vụ mà không cần phải được lập trình cụ thể.</p><p>Đọc bài viết này để hiểu rõ về cơ bản và ứng dụng của Machine Learning.</p>",
+      "author": "Tác giả 7",
+      "date": "2023-10-01",
+      "category": "Trí tuệ nhân tạo",
+      "tags": ["Machine Learning", "AI"],
+      "image": "url_hinh_anh_ml.jpg"
+    },
+    {
+      "id": 11,
+      "user_id": 8,
+      "title": "Angular: Framework JavaScript Đa Nền Tảng",
+      "content": "<h1>Giới thiệu về Angular</h1><p>Angular là một framework JavaScript đa nền tảng được sử dụng để xây dựng ứng dụng web động và hiệu quả.</p><p>Bài viết này hướng dẫn về cách bắt đầu và sử dụng Angular trong phát triển ứng dụng web.</p>",
+      "author": "Tác giả 8",
+      "date": "2023-10-02",
+      "category": "Lập trình",
+      "tags": ["Angular", "Web Development"],
+      "image": "url_hinh_anh_angular.jpg"
+    },
+    {
+      "id": 12,
+      "user_id": 9,
+      "title": "Cybersecurity: Bảo mật Thông tin Trong Thế Giới Kỹ thuật Số",
+      "content": "<h1>Khám phá về Cybersecurity</h1><p>Cybersecurity là lĩnh vực chuyên sâu đảm bảo an toàn và bảo mật cho dữ liệu và thông tin trong thế giới kỹ thuật số ngày nay.</p><p>Bài viết này đưa ra cái nhìn tổng quan về các vấn đề và biện pháp bảo mật cơ bản.</p>",
+      "author": "Tác giả 9",
+      "date": "2023-10-03",
+      "category": "An ninh mạng",
+      "tags": ["Cybersecurity", "Information Security"],
+      "image": "url_hinh_anh_cybersecurity.jpg"
+    }
+   ],
   "comments": [
     {
       "comment_id": 1,
